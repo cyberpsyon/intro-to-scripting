@@ -5,3 +5,4 @@
 ## Module 01
 - Lab 1: Simple Calculator
 - Lab 2: Temperature Converter
+- Lab 3: Kilometer to miles converter
