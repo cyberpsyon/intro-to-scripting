@@ -6,3 +6,4 @@
 - Lab 1: Simple Calculator
 - Lab 2: Temperature Converter
 - Lab 3: Kilometer to miles converter
+- Lab 4: Simple Interest Calculator
