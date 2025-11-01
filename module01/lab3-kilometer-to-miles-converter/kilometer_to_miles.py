@@ -5,13 +5,13 @@
 # Get temp in Fahrenheit from the user
 while True:
     try:
-        kmDistance = float(input("Enter the distance in kilometers: "))
+        km_distance = float(input("Enter the distance in kilometers: "))
         break
     except ValueError:
         print("Enter a valid number.")
 
 # Convert the value to miles
-milesDistance = kmDistance * 0.621371
+miles_distance = km_distance * 0.621371
 
 #Display the result in miles using 2 decimal places
-print(f"{kmDistance} kilometers is equivalent to {milesDistance:.2f} miles.")
+print(f"{km_distance} kilometers is equivalent to {miles_distance:.2f} miles.")
