@@ -1,6 +1,6 @@
 # Intro to Scripting
 
-**Python labs and projects from my Intro to Scripting course.**
+**Python labs and projects from the Intro to Scripting course.**
 
 This repository contains hands-on labs covering fundamental Python concepts, from basic syntax to advanced topics like OOP, web scraping, and machine learning.
 
