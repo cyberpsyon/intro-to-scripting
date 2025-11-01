@@ -50,8 +50,7 @@ This repository contains hands-on labs covering fundamental Python concepts, fro
 ---
 
 ## 🤖 Module 5
-### Intro to Automation | Automation Tools & Libraries | Logging & System Monitoring
-### Automating Network Tasks | Scheduling & Automating Tasks | Network Analysis | Subnetting
+### Intro to Automation | Automation Tools & Libraries | Logging & System Monitoring | Automating Network Tasks | Scheduling & Automating Tasks | Network Analysis | Subnetting
 - Lab 1: Subnet Planning Assistant
 - Lab 2: Network Subnetting Calculator
 - Lab 3: System Resource Monitor
@@ -63,8 +62,7 @@ This repository contains hands-on labs covering fundamental Python concepts, fro
 ---
 
 ## 🌐 Module 6
-### Intro to Web Interaction | HTTP Basics | HTTP Requests | Consuming Public APIs
-### Web Scraping with BeautifulSoup | Challenges, Ethics, & Best Practices
+### Intro to Web Interaction | HTTP Basics | HTTP Requests | Consuming Public APIs | Web Scraping with BeautifulSoup | Challenges, Ethics, & Best Practices
 - Lab 1: Website Status Checker
 - Lab 2: Activity Suggestion Tool Using the Bored API
 - Lab 3: Random Cat Facts Explorer (API)
@@ -76,8 +74,7 @@ This repository contains hands-on labs covering fundamental Python concepts, fro
 ---
 
 ## 🛡️ Module 7
-### Handling Exceptions | Customizing Error Responses | Validating Assumptions
-### Writing Defensive Code | Logging & Debugging
+### Handling Exceptions | Customizing Error Responses | Validating Assumptions | Writing Defensive Code | Logging & Debugging
 - Lab 1: Exception Handling Calculator
 - Lab 2: Exception Handling and Assertions Calculator
 - Lab 3: Creating and Using Custom Exceptions
@@ -88,8 +85,7 @@ This repository contains hands-on labs covering fundamental Python concepts, fro
 ---
 
 ## 📊 Module 8
-### Intro to Data Processing | Data Cleaning with Pandas | Exploratory Data Analysis (EDA)
-### Visualizing Data with Matplotlib & Seaborn | Machine Learning | Ethics & Responsible Data Use
+### Intro to Data Processing | Data Cleaning with Pandas | Exploratory Data Analysis (EDA) | Visualizing Data with Matplotlib & Seaborn | Machine Learning | Ethics & Responsible Data Use
 - Lab 1: Cleaning Customer Data
 - Lab 2: Customer Spending Trends by Year
 - Lab 3: Identifying High-Value Customers
