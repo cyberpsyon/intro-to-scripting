@@ -8,7 +8,7 @@ This repository contains hands-on labs covering fundamental Python concepts, fro
 ### Variables and Data Types | Operators | Math Modules | Input
 - Lab 1: Simple Calculator
 - Lab 2: Temperature Converter
-- Lab 3: Kilometer to miles converter
+- Lab 3: Kilometer to Miles Converter
 - Lab 4: Simple Interest Calculator
 - Lab 5: Road Trip Fuel Cost Estimator
 - Lab 6: Paint Project Estimator
