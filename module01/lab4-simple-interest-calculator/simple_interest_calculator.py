@@ -21,7 +21,7 @@ while True:
 # Gather time from user and validate
 while True:
     try:
-        time = int(input("Enter time (years): "))
+        time = float(input("Enter time (years): "))
         if time > 0:
             break
         else:
