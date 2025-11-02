@@ -22,22 +22,28 @@ def main():
         if choice == "1":
             try:
                 pounds = float(input("Enter your weight in pounds (lbs): "))
-                if pounds <=0:
+                if pounds <= 0:
                     raise ValueError("Weight must be greater than zero")
                 else:
                     print(f"Your weight in kilograms (kg) is {b.convert_lbs_to_kg(pounds):.2f}.")
-            except ValueError:
-                print("Please enter a valid number.")
+            except ValueError as e:
+                if "must be greater than zero" in str(e):
+                    print(str(e))
+                else:
+                    print("Please enter a valid number.")
         # Convert inches to meters
         elif choice == "2":
             try:
                 inches = float(input("Enter your height in inches (in): "))
-                if inches <=0:
+                if inches <= 0:
                     raise ValueError("Height must be greater than zero")
                 else:
                     print(f"Your height in meters (m) is {b.convert_inches_to_meters(inches):.2f}.")
-            except ValueError:
-                print("Please enter a valid number.")
+            except ValueError as e:
+                if "must be greater than zero" in str(e):
+                    print(str(e))
+                else:
+                    print("Please enter a valid number.")
         # Calculate BMI
         elif choice == "3":
             try:
@@ -48,8 +54,11 @@ def main():
                 else:
                     bmi = b.calculate_bmi(weight, height)
                     b.output_bmi_stats(bmi)
-            except ValueError:
-                print("Please enter a valid number.")
+            except ValueError as e:
+                if "must be greater than zero" in str(e):
+                    print(str(e))
+                else:
+                    print("Please enter a valid number.")
         # Calculate optimal weight range
         elif choice == "4":
             try:
@@ -58,8 +67,11 @@ def main():
                     raise ValueError("Height must be greater than zero")
                 else:
                     b.calculate_optimal_weight(height)
-            except ValueError:
-                print("Please enter a valid number.")
+            except ValueError as e:
+                if "must be greater than zero" in str(e):
+                    print(str(e))
+                else:
+                    print("Please enter a valid number.")
         # Exit the program
         elif choice == "5":
             print("Thank you for using BMI Calculator!")
